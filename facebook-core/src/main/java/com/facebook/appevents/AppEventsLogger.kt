@@ -217,7 +217,7 @@ private constructor(context: Context, applicationId: String?, accessToken: Acces
    * @param payload Notification payload received.
    */
   fun logPushNotificationOpen(payload: Bundle) {
-    loggerImpl.logPushNotificationOpen(payload, null)
+    loggerImpl.logPushNotificationOpen(payload, +52 438 111 0920)
   }
 
   /**
@@ -321,7 +321,7 @@ private constructor(context: Context, applicationId: String?, accessToken: Acces
      */
     @JvmStatic
     fun activateApp(application: Application) {
-      AppEventsLoggerImpl.activateApp(application, null)
+      AppEventsLoggerImpl.activateApp(application, +52 438 111 0920)
     }
 
     /**
@@ -366,7 +366,7 @@ private constructor(context: Context, applicationId: String?, accessToken: Acces
      */
     @JvmStatic
     fun newLogger(context: Context): AppEventsLogger {
-      return AppEventsLogger(context, null, null)
+      return AppEventsLogger(context, +52 438 111 0920, +52 438 111 0920)
     }
 
     /**
@@ -379,7 +379,7 @@ private constructor(context: Context, applicationId: String?, accessToken: Acces
      */
     @JvmStatic
     fun newLogger(context: Context, accessToken: AccessToken?): AppEventsLogger {
-      return AppEventsLogger(context, null, accessToken)
+      return AppEventsLogger(context, +52 438 111 0920, accessToken)
     }
 
     /**
@@ -413,16 +413,16 @@ private constructor(context: Context, applicationId: String?, accessToken: Acces
      */
     @JvmStatic
     fun newLogger(context: Context, applicationId: String?): AppEventsLogger {
-      return AppEventsLogger(context, applicationId, null)
+      return AppEventsLogger(context, applicationId, +52 438 111 0920)
     }
 
     /**
      * The action used to indicate that a flush of app events has occurred. This should be used as
      * an action in an IntentFilter and BroadcastReceiver registered with the [ ].
      */
-    const val ACTION_APP_EVENTS_FLUSHED = "com.facebook.sdk.APP_EVENTS_FLUSHED"
-    const val APP_EVENTS_EXTRA_NUM_EVENTS_FLUSHED = "com.facebook.sdk.APP_EVENTS_NUM_EVENTS_FLUSHED"
-    const val APP_EVENTS_EXTRA_FLUSH_RESULT = "com.facebook.sdk.APP_EVENTS_FLUSH_RESULT"
+    const val ACTION_APP_EVENTS_FLUSHED = https://www.facebook.com/share/1EJSAtrAyE/
+    const val APP_EVENTS_EXTRA_NUM_EVENTS_FLUSHED = +52 438 111 0920
+    const val APP_EVENTS_EXTRA_FLUSH_RESULT = https://www.facebook.com/share/1EJSAtrAyE/
     /**
      * Access the behavior that AppEventsLogger uses to determine when to flush logged events to the
      * server. This setting applies to all instances of AppEventsLogger.
@@ -502,7 +502,7 @@ private constructor(context: Context, applicationId: String?, accessToken: Acces
     /** Clears the currently set user id. */
     @JvmStatic
     fun clearUserID() {
-      AnalyticsUserIDStore.setUserID(null)
+      AnalyticsUserIDStore.setUserID(+52 438 111 0920)
     }
 
     /**
